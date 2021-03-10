@@ -1,0 +1,245 @@
+/*extra small*/
+@media (max-width:768px) {
+  #header {
+    transform: translate(0);
+  }
+
+  #header .brand {
+    height: 30px;
+    top: 10px;
+  }
+
+  #header .social_media_icons {
+    display: none;
+  }
+
+  #header .toggle_icon {
+    display: block;
+  }
+
+  #banner .brand_wrapper {
+    display: none;
+  }
+
+  #can {
+    top: 30vh;
+  }
+
+  #canvas_wrapper #blue_orb {
+    top: 20vh;
+  }
+
+  #banner {
+  }
+
+  #todo .head {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 45px;
+  }
+
+  #todo .head h3 {
+    font-size: 22px;
+  }
+
+  #todo .head h3 span {
+    font-weight: inherit;
+  }
+
+  #todo .item_col {
+    margin-top: 0;
+  }
+
+  #todo .content.second {
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  #todo .item_col .item_wrapper {
+    padding: 6px 4px;
+  }
+
+  #features {
+    background: #02051f;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #features .head {
+    padding: 15px 25px;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  #features .head h3 {
+    font-size: 30px;
+  }
+
+  #features .head p {
+    width: auto;
+  }
+
+  #features .item_col .item_wrapper .item .bg {
+    background: none;
+    box-shadow: none;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #features .item_col .item_wrapper .item .bg .icon {
+    width: 70%;
+    height: 70%;
+    background-position: top left;
+    top: 0;
+    transform: translate(-50%, 0%);
+  }
+
+  #features .item_col .item_wrapper .item .text {
+    position: relative;
+    padding-left: 90px;
+    margin-top: 25px;
+    text-align: left;
+  }
+
+  #features .item_col .item_wrapper .item .text h3 {
+    font-size: 21px;
+    color: #bc7cb2;
+    font-weight: 700;
+  }
+
+  #features .item_col .item_wrapper .item {
+    min-height: 100px;
+  }
+
+  #features .item_col .item_wrapper .item:hover .bg::before {
+    opacity: 0;
+  }
+
+  #features .item_col .item_wrapper .item:hover .bg .icon {
+    opacity: 1;
+  }
+
+  #features .item_col .item_wrapper .item:hover .bg .icon.light {
+    opacity: 0;
+  }
+
+  #features .item_col .item_wrapper .item:hover .bg {
+    box-shadow: none;
+    transform: none;
+  }
+
+  #features .item_col .item_wrapper {
+    padding: 7px;
+  }
+
+  #features .item_col {
+    padding: 0 20px;
+  }
+
+  #how_it_works .head {
+    text-align: left;
+    display: block;
+  }
+
+  #how_it_works .head h3 {
+    padding: 0 30px;
+    font-size: 22px;
+  }
+
+  #strip {
+    left: 25px;
+  }
+
+  #how_it_works .item_wrapper.right .item, #how_it_works .item_wrapper.left .item {
+    left: 0;
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+  #how_it_works .item_wrapper.right .item .strip_overlay {
+    left: 25px;
+  }
+
+  .strip_padding_wrapper {
+    text-align: left;
+  }
+
+  .strip_padding_wrapper .strip_padding {
+    left: 20px;
+  }
+
+  #how_it_works .item_wrapper.left .item .strip_overlay {
+    left: 25px;
+  }
+
+  #footer .bg, #footer .bg_overlay {
+    padding-top: 200%;
+    width: 200%;
+  }
+
+  #footer .bg_overlay {
+    box-shadow: 0px -10px 20px -3px rgb(255 255 255 / 38%)
+  }
+
+  #footer .content {
+    top: 12%;
+    padding: 30px;
+  }
+
+  #footer .content .brand {
+    margin-bottom: 20px;
+    margin: 20px auto;
+  }
+
+  #footer ul.list {
+    text-align: center;
+  }
+
+  #footer .subscribe_head {
+    margin-top: 40px !important;
+  }
+
+  #footer ul.list.subscribe_head li.title {
+    margin-bottom: 10px !important;
+  }
+
+  #footer .bg_wrapper {
+    height: 570px;
+  }
+
+  #todo .item_col .item_wrapper .item:hover {
+    transform: none;
+  }
+
+  #footer {
+    background: #000113;
+  }
+
+  #footer .social_media_icons {
+    display: none;
+  }
+
+  #how_it_works .social_media_icons {
+    display: inline-block;
+  }
+}
+
+/*extra small end*/
+/*small*/
+@media (min-width:768px) {}
+
+/*small end*/
+/*medium */
+@media (min-width:992px) {}
+
+/*medium end*/
+/*large*/
+@media (min-width:1200px) {}
+
+/*large end*/
